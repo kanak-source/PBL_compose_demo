@@ -1,0 +1,6 @@
+services:
+  student-api:
+    build: .
+    container_name: student-api-compose
+    ports:
+      - "8000:8000"
